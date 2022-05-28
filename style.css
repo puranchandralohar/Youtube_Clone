@@ -1,0 +1,33 @@
+.left{
+    display: flex;
+    flex:1;
+    /* justify-content: space-around; */
+}
+
+.center{
+    display: flex;
+    flex:2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex:1;
+}
+.left .logo i{
+    color: red;
+    margin-left: 2rem;
+}
+
+.center .search,.submit,.microphone{
+    margin-left: 0.5rem;
+    
+}
+
+.right .profile img{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+}
